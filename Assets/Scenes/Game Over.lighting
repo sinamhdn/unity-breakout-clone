@@ -6,7 +6,7 @@ LightingSettings:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Game Over Screen
+  m_Name: Game Over
   serializedVersion: 6
   m_GIWorkflowMode: 1
   m_EnableBakedLightmaps: 0
