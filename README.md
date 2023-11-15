@@ -7,7 +7,10 @@ A breakout clone demo project in unity
 2022.3.2f1 LTS
 
 ## Assets Used
-Font are from https://www.dafont.com/ 
+Font are from https://www.dafont.com/
+
+## Aspect Ratio
+4:3
 
 ## Concepts Used
 - Import and Export the projects as unitypackage
