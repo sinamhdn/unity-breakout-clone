@@ -33,4 +33,5 @@ Font are from https://www.dafont.com/
 - changing sprite of a sprite renderer component from script
 
 ## Important Notes
+**CHECK "Is Autoplay" ON SESSION.CS TO MAKE THE GAME PLAY ITSELF**
 **ADD SCENES TO BUILD SETTINGS IN THIS ORDER "Start Menu" > "Levels" > "Game Over"**
