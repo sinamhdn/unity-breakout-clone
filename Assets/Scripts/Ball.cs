@@ -33,16 +33,21 @@ public class Ball : MonoBehaviour
 
     private void OnCollisionEnter2D(Collision2D collision)
     {
+        // to stop infinite bouncing of the ball
         Vector2 randomVelocity = new Vector2
-            (Random.Range(0f, velocityRandomFactor),
-            Random.Range(0f, velocityRandomFactor));
+            (Random.Range(-Mathf.Abs(velocityRandomFactor), Mathf.Abs(velocityRandomFactor)),
+            Random.Range(-Mathf.Abs(velocityRandomFactor), Mathf.Abs(velocityRandomFactor)));
 
         if (!hasStarted) return;
         AudioClip clip = bounceAudio[Random.Range(0, bounceAudio.Length)];
         // GetComponent<AudioSource>().Play();
         // play one shot plays audio to the end than plays the other one and doesnt interrupt the playing
         audioSource.PlayOneShot(clip);
-        rigidbody2d.velocity += randomVelocity;
+
+        if (collision.gameObject.CompareTag("Wall") || collision.gameObject.CompareTag("Unbreakable"))
+        {
+            rigidbody2d.velocity += randomVelocity;
+        }
     }
 
     private void StickToPaddle()

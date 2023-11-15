@@ -122,7 +122,7 @@ Transform:
   - {fileID: 8073165288132298960}
   - {fileID: 9101244571306460448}
   m_Father: {fileID: 0}
-  m_RootOrder: 6
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &4241355893844771270
 GameObject:
@@ -138,7 +138,7 @@ GameObject:
   - component: {fileID: 8888579655658133803}
   m_Layer: 0
   m_Name: Walls
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

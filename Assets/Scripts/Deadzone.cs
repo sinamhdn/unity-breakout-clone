@@ -5,6 +5,6 @@ public class Deadzone : MonoBehaviour
 {
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        SceneManager.LoadScene("Game Over Screen");
+        SceneManager.LoadScene("Game Over");
     }
 }

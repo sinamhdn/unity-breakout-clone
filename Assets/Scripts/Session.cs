@@ -38,7 +38,7 @@ public class Session : MonoBehaviour
         // {
         //     Destroy(gameObject);
         // }
-        Time.timeScale = 1f;
+        Time.timeScale = gameSpeed;
     }
 
     public void CountBlocks()
