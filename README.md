@@ -1,4 +1,4 @@
-# unity-breakout-clone
+# Breakout Clone
 A breakout clone demo project in unity
 
 ![Screenshot](https://github.com/sinamhdn/unity-breakout-clone/assets/34884156/196a01f3-fd0c-4a2f-a411-28ae156aca74)
@@ -6,13 +6,13 @@ A breakout clone demo project in unity
 ## Unity Version
 2022.3.2f1 LTS
 
-## Assets Used
+## Assets
 Font are from https://www.dafont.com/
 
 ## Aspect Ratio
 4:3
 
-## Concepts Used
+## Concepts
 - Import and Export the projects as unitypackage
 - Calculate asset sizes and pixel per units based on the unity units
 - Rigidbody to apply physics rules to the game object
